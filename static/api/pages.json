@@ -1,0 +1,86 @@
+{
+    "0": {
+        "ID_post": "0",
+        "title": "Home",
+        "sub": "",
+        "body": "",
+        "slug": "/"
+    },
+    "1": {
+        "ID_post": "1",
+        "title": "Land Acknowledgment",
+        "sub": "",
+        "body": "",
+        "slug": "acknowledgment"
+    },
+    "2": {
+        "ID_post": "2",
+        "title": "Event Description",
+        "sub": "",
+        "body": "",
+        "slug": "event"
+    },
+    "3": {
+        "ID_post": "3",
+        "title": "Schedule",
+        "sub": "",
+        "body": "",
+        "slug": "schedule"
+    },
+    "4": {
+        "ID_post": "4",
+        "title": "Roundtable",
+        "sub": "",
+        "body": "",
+        "slug": "roundtable"
+    },
+    "5": {
+        "ID_post": "5",
+        "title": "Participants, bio, &amp; abstracts",
+        "sub": "",
+        "body": "",
+        "slug": "participants"
+    },
+    "6": {
+        "ID_post": "6",
+        "title": "Filipinx Diasporic Mix Tapes",
+        "sub": "",
+        "body": "",
+        "slug": "music"
+    },
+    "7": {
+        "ID_post": "7",
+        "title": "Exhibition: X Marks the Spot",
+        "sub": "",
+        "body": "",
+        "slug": "exhibition"
+    },
+    "8": {
+        "ID_post": "8",
+        "title": "Topline: Filipinx Diaspora and Sonic Aspirations in the City",
+        "sub": "",
+        "body": "",
+        "slug": "topline"
+    },
+    "9": {
+        "ID_post": "9",
+        "title": "Funding &amp; Partners",
+        "sub": "",
+        "body": "",
+        "slug": "funding-partners"
+    },
+    "10": {
+        "ID_post": "10",
+        "title": "COVID-19 Protocol",
+        "sub": "",
+        "body": "",
+        "slug": "covid19"
+    },
+    "11": {
+        "ID_post": "11",
+        "title": "Contact",
+        "sub": "",
+        "body": "",
+        "slug": "contact"
+    }
+}

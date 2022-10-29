@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Dangwa';
+  src: url("fonts/Dangwa.otf") format("opentype");
+}
+$body_taupe: #CDB298;
+$menu_body: #C3A44B;
+$menu_header: #A8A4B4;
+$menu_link: #3B3A40;
+$menu_linK_hover: #7B8F7F;
+$font_header: 'Dangwa', sans-serif;
+$highlight_red: #894C39;
+$highlight_cream: #CAC4AC;
+
+html {
+  body {
+    height: 100vh;
+    background: linear-gradient(149deg, rgba(205,178,152,1) 0%, rgba(123,143,127,1) 58%, rgba(137,76,57,1) 100%);
+    background-size: 5000vh 5000vw;
+	  animation: gradient 15s ease infinite;
+
+    .home {
+      background: #fff;
+
+      .home-img {
+        position: relative;
+
+        small {
+          position: absolute;
+          bottom: -3em;
+          right: .25em;
+        }
+      }
+    }
+
+    @keyframes gradient {
+    	0% {
+    		background-position: 0% 50%;
+    	}
+    	50% {
+    		background-position: 100% 50%;
+    	}
+    	100% {
+    		background-position: 0% 50%;
+    	}
+    }
+
+
+    p {
+      font-size: 1.5em;
+      font-weight: 200;
+      letter-spacing: 1px;
+    }
+
+    a {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    hr {
+      border: 2px solid $highlight_red
+    }
+
+    .presenter {
+      font-family: $font_header;
+      font-size: 1.5em;
+    }
+  }
+
+  .main-content {
+    height: 100vh;
+  }
+
+  #sidebar-1 {
+    .b-sidebar-body {
+      background-color: $menu_body;
+    }
+
+    .b-sidebar-header {
+      background-color: $menu_header;
+
+      strong {
+        font-family: $font_header;
+      }
+    }
+  }
+
+  #menu-btn {
+    position: fixed;
+    right: 1em;
+    top: 1em;
+
+    .b-icon.bi {
+      width: 2em;
+      height: 2em;
+    }
+  }
+
+  .main-menu {
+    // font-weight: 200;
+    // letter-spacing: 1px;
+    font-family: $font_header;
+    padding-top: 1em;
+    padding-left: 0;
+
+    li {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      font-size: 1.5em;
+      line-height: 1.1em;
+      margin-bottom: 1em;
+      a {
+        color: $menu_link;
+        text-decoration: none;
+      }
+      a:hover {
+        color: $menu_linK_hover;
+      }
+    }
+  }
+
+  .placeholder {
+    font-family: $font_header;
+    text-align: center;
+    width: 100%;
+    color: $highlight_cream;
+  }
+
+  .accordion-box {
+    margin-bottom: 2em;
+    .accordion-head, .accordion-content {
+      h2 {
+        font-weight: 200;
+      }
+      color: #000;
+      background: $highlight_cream;
+
+    }
+  }
+
+
+}
